@@ -1,5 +1,19 @@
 {
-  "extends": [
-    "config:base"
+  "extends": ["config:base"],
+  "baseBranches": ["main"],
+  "automerge": true,
+  "separateMinorPatch": true,
+  "patch": {
+    "enabled": false
+  },
+  "minor": {
+    "enabled": false
+  },
+  "packageRules": [
+    {
+      "depTypeList": ["dependencies"],
+      "updateTypes": ["major"],
+      "automerge": false
+    }
   ]
 }
