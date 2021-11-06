@@ -13,7 +13,7 @@
   "dependencies": {
     "apollo-server-fastify": "3.5.0",
     "fastify": "3.23.0",
-    "graphql": "16.0.1",
+    "graphql": "15.7.2",
     "reflect-metadata": "0.1.13",
     "type-graphql": "1.1.1"
   },
