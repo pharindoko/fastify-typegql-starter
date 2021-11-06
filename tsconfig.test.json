@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": ["es2018", "esnext.asynciterable"],
+    "rootDir": "./",
+    "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true
+  },
+  "include": ["tests/**/*.ts"]
+}
