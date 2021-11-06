@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc -b",
-    "start": "ts-node index.ts",
-    "start:dev": "tsc-watch --onSuccess 'node ./dist/server.js'"
+    "start": "tsc-watch --onSuccess 'node ./dist/server.js'"
   },
   "author": "Florian Fuß",
   "license": "MIT",

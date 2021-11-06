@@ -21,14 +21,22 @@ this is a simple typescript starter template for a grapqhl api made with:
 npm i
 ```
 
-## Start
+## Build
 
 ```bash
-npm run start
+npm run build
 ```
 
-## Develop with hot-reload (tsc-watch)
+## Develop
 
 ```bash
 npm run start:dev
+```
+
+> open your browser and go to http://localhost:3000/graphql
+
+## Test
+
+```bash
+npm run test
 ```
